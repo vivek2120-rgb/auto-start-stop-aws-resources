@@ -1,0 +1,14 @@
+sender_email=contact@paraminfo.com
+sender_email_password=Naro805858
+reciever_email_group=vivek.m@paraminfo.com
+#,ravi.nanda@paraminfo.com
+#cluster_names=pivms-cluster
+cluster_names=false
+#auto_scaling_group_name=Infra-ECS-Cluster-pivms-cluster-d9909484-ECSAutoScalingGroup-00XgOgCi1xSb
+auto_scaling_group_name=false
+queue_url=https://sqs.ap-south-1.amazonaws.com/430107809132/test_stop_start_services_status.fifo
+resource_tag_key=stop_and_start_instance_test
+stop_time=11PM
+start_time=8:30AM
+environment=QA
+account_id=430107809132
